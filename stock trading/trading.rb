@@ -22,4 +22,4 @@ end
 
 a = [4,3,56,4,12,32,-3,32,0,65,3,12,-4,34,23]
 
-puts max_proft(a)
+puts max_difference(a)
