@@ -76,3 +76,4 @@ end
 puts contains_node2 a
 
 
+# Remember that the coding interview is a dialogue, and sometimes your interviewer expects she'll have to offer some hints along the way. One of the most impressive things you can do as a candidate is listen to a hint, fully understand it, and take it to its next logical step - Interview Cake
