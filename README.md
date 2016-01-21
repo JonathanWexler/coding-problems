@@ -15,3 +15,5 @@ A repo with custom solutions to original and online coding problems.
 [Find the Kth Node from End of Linked List](find node/kth_node.rb)
 
 [Reverse Word Order in a String](reverse word order/reverse_word_order.rb)
+
+[Find Two Airplane Movies](airplane movies/inflight_movie.rb)
