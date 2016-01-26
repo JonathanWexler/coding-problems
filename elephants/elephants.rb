@@ -3,7 +3,7 @@
 # 
 # Safari life is tough and a herd of elephants must stick together. Given a line of elephants where each elephant's trunk holds onto the tail of the elephant in front of him. Get the strongest elephant to the front of the line to protect the rest of the herd.
 
-# Use the Elephant class below to create a method which accepts the last elephant in line and use that information to push the strongest elephant to the front and return the new last elephant in line.
+# Use the Elephant class below to create a method which accepts the last elephant in line and use that information to push the strongest elephant to the front and return the new last elephant in line. EACH ELEPHANT THAT THE STRONGEST ELEPHANT PASSES GOES TO THE BACK OF THE LINE.
 
 
 class Elephant
@@ -27,9 +27,10 @@ dumbo.elephant_in_front = trumbo
 
 # jumbo --> gumbo --> dumbo --> trumbo
 # And you were given 'jumbo'. Return 'gumbo' such that the new arrangement of elephants has jumbo in the front, like so:
-# gumbo --> dumbo --> trumbo --> jumbo
+# trumbo --> dumbo --> gumbo --> jumbo
 
 def strongest_in_front elephant
+# YOUR CODE GOES HERE
     last_elephant = elephant
 
     while elephant.elephant_in_front != nil
