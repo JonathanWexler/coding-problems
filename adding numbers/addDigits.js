@@ -1,6 +1,6 @@
 // Jon Wexler
 // This function takes an integer, adds the digits continually until the resulting number is a single digit
-// source: 
+// source: https://leetcode.com/problems/add-digits/
 
 var addDigits = function(num) {
     if (num == null || num < 10) return num
